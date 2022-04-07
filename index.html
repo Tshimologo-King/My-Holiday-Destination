@@ -7,6 +7,8 @@
     <title>Document</title>
   </head>
 
+  <link rel="stylesheet" href="./style.css">
+
   <style>
     body {
       background-image: url("Wallpaper galaxy.jpg");
@@ -16,6 +18,7 @@
     }
 
     h1 {
+      color:white;
       text-align: center;
       border: 1px;
     }
@@ -45,6 +48,27 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
+      border-radius: 8px;
+    }
+
+    overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: blue;
+    }
+
+    .text{
+      color: white;
+      font-size: 14px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
     }
 
     a:link{
@@ -65,19 +89,22 @@
     }
 
   </style>
+
   <body>
-    <h1 style="color: whitesmoke">Welcome To My Holiday</h1>
+    <h1>Welcome To My Holiday Destination</h1>
+
     <div class="fade-in">
       <img src="Ride or Die.jpg" alt="Ride or Die" />
+      </div>
     </div>
 
-    <ol>
-      <li>1. The thrill of Adventure.</li>
-      <li>2. Bucket list Goal.</li>
-      <li>3. Finding new life on a different star.</li>
-      <li>4. Serenity in the beauty of the Galaxy.</li>
-      <li>5. Exploration.</li>
-    </ol>
+    <dl>
+      <li>The thrill of Adventure.</li>
+      <li>Bucket list Goal.</li>
+      <li>Finding new life on a different star.</li>
+      <li>Serenity in the beauty of the Galaxy.</li>
+      <li>Exploration.</li>
+    </dl>
 
     <a href="./contact.html">Contact</a>
   </body>
