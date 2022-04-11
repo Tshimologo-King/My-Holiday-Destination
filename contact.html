@@ -25,9 +25,29 @@
     }
   </style>
   <body>
-      <form>
-          <input type="text" placeholder="Name" />
-          <input type="text" placeholder="Number" />
+      <form action="https://formspree.io/f/xoqrkjrq" method="post">
+        <div class="container">
+                <label for="username"><b>Name</b></label>
+                <input type="text" placeholder="Enter Username" name="Username" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="Email" required>
+                
+                <label for="contact"><b>Contact</b></label>
+                <input type="text" placeholder="Enter Contact Details" name="Contact" required>
+
+                <label for="date"><b>Date</b></label>
+                <input type="date" placeholder="Date of Arrival" name="Date" required>
+
+                <label for="time"><b>Time</b></label>
+                <input type="time" placeholder="Time of Check-in" name="Time" required>
+
+                <button type="submit">Book</button>
+            </div>
+
+            <div class="container" style="background-color: white">
+                <button type="button" class="cancelbutton">Cancel</button>
+            </div>
       </form>
 
       <a href="./index.html">Home Page</a>
