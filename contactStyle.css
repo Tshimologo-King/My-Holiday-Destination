@@ -1,0 +1,32 @@
+.container-form {
+  color:aqua;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  align-items: center;
+  margin-top: 100px;
+  gap: 5px 5px;
+  /* width: 100vw; */
+}
+
+body{
+  background-image: url(./Spaceship.jpg);
+  background-position: cover;
+  background-repeat: repeat;
+  height: 100vh;
+}
+
+.container{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+a {
+  text-align: left;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
