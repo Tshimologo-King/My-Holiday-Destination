@@ -7,52 +7,44 @@
     <title>Contact Page</title>
   </head>
   <link rel="stylesheet" href="./contactStyle.css">
-  <style>
-      a:link{
-      color:white;
-    }
-
-    a:visited{
-      color:cyan;
-    }
-
-    a:hover{
-      color: red;
-    }
-
-    a:active{
-      color:yellowgreen;
-    }
-  </style>
+  
   <body>
-    <h3>
-      <form 
-      >
-              <div class="container-form">
-                <label for="username"><b>Name</b></label>
-                <input type="text" placeholder="Enter Username" name="Username" required>
 
-                <label for="email"><b>Email</b></label>
-                <input type="email" placeholder="Enter Email" name="Email" required>
-                
-                <label for="contact"><b>Contact</b></label>
-                <input type="text" placeholder="Enter Contact Details" name="Contact" required>
+    <section id="Contact">
+      <div class="container">
+        <div class="contactForm">
+          <form style="display: flex; flex-direction:column">
+            <label for="username"><b>Name</b></label>
+            <input type="text" placeholder="Enter Username" name="Username" required>
+            
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" name="Email" required>
+                  
+            <label for="contact"><b>Contact</b></label>
+            <input type="text" placeholder="Enter Contact Details" name="Contact" required>
 
-                <label for="date"><b>Date</b></label>
-                <input type="date" placeholder="Date of Arrival" name="Date" required>
+            <label for="date"><b>Date</b></label>
+            <input type="date" placeholder="Date of Arrival" name="Date" required>
 
-                <label for="time"><b>Time</b></label>
-                <input type="time" placeholder="Time of Check-in" name="Time" required>
+            <label for="time"><b>Time</b></label>
+            <input type="time" placeholder="Time of Check-in" name="Time" required>
 
-                <button type="submit">Book</button>
-              </div>
+            <button type="submit">Book</button>
+          </div>
+          
+          <div class="cancelbutton" style="background-color: transparent">
+            <button type="button" class="cancelbutton">Cancel</button>
+          </div>
+        </form>
 
-              <div class="container" style="background-color: transparent">
-                <button type="button" class="cancelbutton">Cancel</button>
-              </div>
-      </form>
+        <div class="revertPage">
+          <a href="./index.html">Home Page</a>
+        </div>
+        </div>
+      </div>
+    </section>
       
-      <a href="./index.html">Home Page</a>
-    </h3>
+      
+      
   </body>
 </html>

@@ -1,32 +1,72 @@
-.container-form {
-  color:aqua;
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  align-items: center;
-  margin-top: 100px;
-  gap: 5px 5px;
-  /* width: 100vw; */
-}
-
-body{
-  background-image: url(./Spaceship.jpg);
-  background-position: cover;
-  background-repeat: repeat;
+#Contact{
+  background-image: url(./pictures/pexels-pixabay-33688.jpg);
+  background-size: cover;
+  background-position: center;
   height: 100vh;
 }
 
 .container{
-  background-color: transparent;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5px;
+  flex-direction: column;
 }
 
-a {
-  text-align: left;
-  position: fixed;
-  left: 20px;
-  bottom: 20px;
+.contactForm{
+  display: flex;
+  width: fit-content;
+  margin-inline: auto;
+}
+
+.contactForm input{
+  height: 50px;
+    border: 0.9px solid;
+    border-color: aqua;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.contactForm label{
+  text-align: center;
+    font-size: 25px;
+    color: darkcyan;
+    margin-bottom: 5px;
+}
+
+.contactForm button{
+  height: 50px;
+    margin-top: 30px;
+    border: 0.9px solid;
+    border-color: aqua;
+    background: transparent;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.placeholder{
+  color: aliceblue;
+}
+.cancelbutton{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.cancelbutton a{
+  border: 0.9 solid aqua;
+  border-radius: 10px;
+}
+
+.revertPage{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.revertPage a{
+  color: rgb(70, 128, 128);
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 35px;
 }

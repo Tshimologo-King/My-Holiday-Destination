@@ -12,9 +12,81 @@
   height: 100vh;
 }
 
+#carouselExampleCaptions{
+  margin-top: 50px;
+}
+
+.container h1{
+  background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+                    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.container h2{
+  background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+                    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
 .carousel-item img {
   width: 100%;
-  height: 800px;
+  height: 700px;
   z-index: 1;
   object-fit: cover;
+  border-radius: 30px;
+}
+
+.card{
+  background-color: transparent;
+  font-weight: 800;
+}
+
+.card h3{
+  font-size: 30px;
+  background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+                    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.card p{
+  font-size: 20px;
+  background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+                    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.card i{
+  font-size: 10px;
+  background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+                    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+
+.carousel-indicators{
+  display: none;
+}
+
+.contactform a{
+  font-size: 20px;
+  color: aliceblue;
+  text-decoration: none;
+  border: 0.8px solid white;
+  border-radius: 10px;
+  padding: 5px 5px;
+   background: linear-gradient(to right, #f32170,
+                    #ff6b08, #cf23cf, #eedd44);
+                    -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+.carousel-control-prev{
+  opacity: 0;
+}
+.carousel-control-next{
+  opacity: 0;
+}
+
+.contactform{
+  margin-top: 30px;
 }
